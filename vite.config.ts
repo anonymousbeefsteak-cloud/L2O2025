@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // 部署到 GitHub Pages 需要設定 base 路徑
-  // 將 'L2O2025' 換成您的 GitHub 倉庫名稱
-  base: '/your-repo-name/', 
+  // This base path must match your GitHub repository name
+  base: '/L2O2025/', 
 })
